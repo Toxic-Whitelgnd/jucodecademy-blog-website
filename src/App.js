@@ -10,6 +10,7 @@ import ContactHome from './Components/ContactPage/ContactHome';
 import BlogPages from './Components/BlogPage/BlogPages';
 import BlogPostPage from './Components/BlogPage/BlogPostPage';
 import AuthorPage from './Components/BlogPage/AuthorPage';
+import Contact from './Components/ContactPage/ContactPage';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       <Route path='/blog/blogauthor/:slug' element={<AuthorPage />} />
       <Route path='/blog/:slug/blogauthor/:slug' element={<AuthorPage />} />
       <Route path='/Aboutus' element={<AboutHome/>}/>
-      <Route path='/Contactus' element={<ContactHome/>}/>
+      <Route path='/Contactus' element={<Contact />}/>
       </Routes>
       <Footer />
     </Router>
