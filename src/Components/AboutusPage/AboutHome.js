@@ -1,6 +1,7 @@
 import React from 'react'
 import "./AboutCSS.css"
 import img3 from "../../Assests/abtus.png"
+import { Link } from 'react-router-dom'
 
 export default function AboutHome() {
   return (
@@ -14,7 +15,10 @@ export default function AboutHome() {
                 their interests, develop new skills, and connect with like-minded individuals.</span>
 
                 <div className="btnl">
-                <a className='custom-btnl' href='/#/blog'>LEARN MORE</a>
+                <Link to="/Aboutus" className='custom-btnl'>
+                <a className='custom-btnl' href='#'>LEARN MORE</a>
+                </Link>
+                
                 </div>
         </div>
         <div className='col'>

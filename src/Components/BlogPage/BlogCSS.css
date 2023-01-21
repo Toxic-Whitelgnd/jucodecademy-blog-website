@@ -1,9 +1,10 @@
 .blogbg{
-    background-color: var(--quadinary);
+    background-color: var(--tertiary);
 }
 .card-blog{
   display: flex;
   flex-wrap: wrap;
+  background-color: var(--quadinary);
 }
 .custom-btn{
     background-color: var(--secondary);

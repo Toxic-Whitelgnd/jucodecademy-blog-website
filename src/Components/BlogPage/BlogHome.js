@@ -1,6 +1,7 @@
 import React from 'react'
 import "./BlogCSS.css"
 import img2 from "../../Assests/boylearn.png"
+import { Link } from 'react-router-dom'
 
 export default function BlogHome() {
   return (
@@ -24,7 +25,9 @@ export default function BlogHome() {
                 <br />
 
                 <div className="btnr">
-                <a className='custom-btn' href='/#/blog'>READ OUR BLOGS</a>
+                  <Link to="/blog" className='custom-btn'>
+                <a className='custom-btn' href='#'>READ OUR BLOGS</a>
+                </Link>
                 </div>
                 
           

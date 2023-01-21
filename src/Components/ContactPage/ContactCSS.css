@@ -1,5 +1,5 @@
 .ctbg{
-    background-color: var(--primary);
+    background-color: var(--tertiary);
 }
 .custom-btn{
     background-color: var(--secondary);
@@ -9,6 +9,9 @@
     padding: 5px;
     
     text-decoration: none;
+}
+.ctt-img{
+    margin-top: 50px;
 }
 .btnr{
     margin-top: 20px;

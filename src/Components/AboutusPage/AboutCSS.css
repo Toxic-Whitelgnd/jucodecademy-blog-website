@@ -1,5 +1,5 @@
 .abtbgg{
-    background-color: var(--secondary);
+    background-color: var(--quadinary);
    
 }
 .abt{
@@ -23,4 +23,13 @@
 }
 .btnl{
     margin-top: 20px;
+}
+
+/* for fking abtuspage */
+.abtusbg{
+    background-color: var(--tertiary);
+}
+.abtusimg{
+    display: flex;
+    justify-content: center;
 }

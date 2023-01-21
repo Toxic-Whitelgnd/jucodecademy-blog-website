@@ -1,7 +1,8 @@
 .footer-basic {
     padding:40px 0;
-    background-color:var(--quadinary);
-    color:var(--medp);
+    background-color:var(--primary); 
+    /* #176b8f  */
+    color:white;
   }
   
   .footer-basic ul {

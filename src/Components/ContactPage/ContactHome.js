@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import img4 from "../../Assests/ctt.png"
 import "./ContactCSS.css"
 
@@ -8,7 +9,7 @@ export default function ContactHome() {
       <div className='ctbg overflow-x-hidden'>
         <div className='row align-items-center'>
             <div className='col'>
-                <img src={img4} alt="asd" width={550} height={500}/>
+                <img src={img4} alt="asd" width={550} height={500} className="ctt-img"/>
             </div>
             <div className='col p-4'>
                 <h1 className='ctt'>CONTACT US!</h1>
@@ -25,7 +26,10 @@ export default function ContactHome() {
                 <br />
 
                 <div className="btnr">
-                <a className='custom-btn' href='/#/blog'>CONTACT US</a>
+                <Link to="/Contactus" className='custom-btn'>
+                <a className='custom-btn' href='#'>CONTACT US</a>
+                </Link>
+                
                 </div>
                 
           

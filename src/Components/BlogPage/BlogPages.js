@@ -32,7 +32,7 @@ export default function BlogPages() {
       .catch(console.error)
     },[]);
   return (
-    <div className="mt-2 card-blog">
+    <div className="card-blog">
        
             {Blogpost[0] && 
               
