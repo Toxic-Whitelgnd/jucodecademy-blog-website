@@ -1,0 +1,47 @@
+.auth-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.authname{
+    display: flex;
+    align-items: baseline;
+    margin-left: 20px;
+    padding: 3px;
+    text-transform: capitalize;
+}
+.authimg{
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.authbio{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px;
+}
+#pen{
+    font-size: 34px;
+    margin-right: 20px;
+    color: var(--secondary);
+}
+
+.pas .a-s a{
+    height: 45px;
+    font-size: 35px;
+    padding: 5px;
+    border-radius: 55%;
+    border-color: black;
+    color: var(--tertiary);
+}
+.a-s{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+.pas{
+    margin-bottom: 45px;
+}

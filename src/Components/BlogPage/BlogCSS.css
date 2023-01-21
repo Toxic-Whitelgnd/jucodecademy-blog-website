@@ -1,6 +1,10 @@
 .blogbg{
     background-color: var(--quadinary);
 }
+.card-blog{
+  display: flex;
+  flex-wrap: wrap;
+}
 .custom-btn{
     background-color: var(--secondary);
     border-radius: 3px;
@@ -16,3 +20,110 @@
 .blogdec{
     color: #fff;
 }
+  /* dfd */
+  .blog-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--tertiary);
+  }
+
+  /* single blog page */
+  .BlogSingle {
+    height: auto;
+  }
+  
+  
+  .BannerImg {
+    width: 100% !important;
+    margin: 4rem 2rem 2rem 0 !important;
+    height: 300px !important;
+  }
+  .BlogSingle img {
+    width: 50%;
+    height: auto;
+    margin: 1rem;
+  }
+  .BlogSingle h1 {
+    font-size: 3rem !important;
+    color: var(--primary-blue);
+  }
+  .Banner_author {
+    font-size: 1.05rem;
+  }
+  .Banner_Content {
+    font-size: 1.23rem;
+    font-weight: 400;
+  }
+  .Banner_Read_More {
+    margin: 3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background: var(--primary);
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  .Blog_Card .card {
+    height: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+  }
+  .Blog_Card .card-text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .Blog_Card h4 {
+    font-weight: 800px !important;
+  }
+  .Heading {
+    color: var(--primary-blue);
+  }
+  .BlockContent img {
+    margin: auto;
+  }
+  .Blog_Card .card a {
+    position: absolute;
+    bottom: 0%;
+    left: 31%;
+    margin: 1rem;
+  }
+
+
+
+  .Author-icon{
+    background: rgba(255, 255, 137, 0.699);
+    padding: 0.8rem;
+    border-radius: 12px;
+    color: brown;
+  }
+  .Calender-icon{
+    background: rgba(203, 203, 255, 0.63);
+    padding: 0.8rem;
+    border-radius: 12px;
+    color: var(--secondary);
+  }
+
+  .Blog_Card{
+    margin: 2rem 0;
+    padding: 0 0 1rem 0;
+    border: none;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.527) ;
+    border-radius: 0;
+  }
+
+  .Blog_Card img{
+    border-radius: 25px !important;
+    height: 200px !important;
+    margin: 2rem 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .Banner_Content {
+      font-size: 0.9rem !important;
+    }
+  }
+  @media screen and (max-width: 1240px) {
+  }
+  
