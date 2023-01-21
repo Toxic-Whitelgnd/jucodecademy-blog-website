@@ -1,0 +1,26 @@
+.abtbgg{
+    background-color: var(--secondary);
+   
+}
+.abt{
+    margin-bottom: 30px;
+    color: #fff;
+}
+.abtdec{
+    color: #fff;
+}
+.abtbg{
+    margin-left: 30px;
+}
+.custom-btnl{
+    background-color: var(--tertiary);
+    border-radius: 3px;
+    color: white;
+    border-color: var(--tertiary);
+    padding: 5px;
+    
+    text-decoration: none;
+}
+.btnl{
+    margin-top: 20px;
+}

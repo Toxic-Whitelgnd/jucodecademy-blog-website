@@ -1,0 +1,20 @@
+.NavBarSection {
+    font-size: 1.07rem;
+  }
+  
+  .navbar
+  {
+    
+    z-index: 99;
+    background-color: var(--primary);
+    
+  }
+
+  .nav-link:hover{
+    color: var(--tertiary) !important;
+  }
+  .active{
+    color: var(--quadinary) !important;
+    font-weight: 600;
+  }
+  

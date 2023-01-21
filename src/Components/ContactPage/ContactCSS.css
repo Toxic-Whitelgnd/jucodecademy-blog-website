@@ -1,0 +1,22 @@
+.ctbg{
+    background-color: var(--primary);
+}
+.custom-btn{
+    background-color: var(--secondary);
+    border-radius: 3px;
+    color: white;
+    border-color: var(--secondary);
+    padding: 5px;
+    
+    text-decoration: none;
+}
+.btnr{
+    margin-top: 20px;
+}
+.blogdec{
+    color: #fff;
+}
+.ctt{
+    margin-bottom: 30px;
+    color: #fff;
+}
