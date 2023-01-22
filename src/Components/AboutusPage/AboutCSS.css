@@ -28,8 +28,23 @@
 /* for fking abtuspage */
 .abtusbg{
     background-color: var(--tertiary);
+    /* margin-bottom: 10px; */
 }
 .abtusimg{
     display: flex;
     justify-content: center;
+}
+
+.abtusp{
+    display: flex;
+    color: #fff;
+}
+.custom-btnll{
+    background-color: var(--secondary);
+    border-radius: 3px;
+    color: white;
+    border-color: var(--secondary);
+    padding: 5px;
+    margin-bottom: 15px;
+    text-decoration: none;
 }
