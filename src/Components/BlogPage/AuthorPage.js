@@ -11,6 +11,14 @@ export default function AuthorPage() {
     const [authprof,setauthprof] = useState([])
     const {slug} = useParams()
 
+    const scrollUp = () => {
+      window.scroll(0, 0);
+      };
+  
+      useEffect(() => {
+          scrollUp();
+      }, []);
+      
     useEffect(()=>{
         Client.fetch(`*[slug.current == "${slug}"]{
             name,

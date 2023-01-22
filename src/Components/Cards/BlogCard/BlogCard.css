@@ -46,6 +46,7 @@ a {
     overflow: hidden;
     border: 3px solid var(--secondary);
     text-decoration: none;
+    font-family: 'Dancing Script', cursive;
   }
   .card-desc{
     margin-top: 30px;
@@ -62,7 +63,7 @@ a {
   
   .card p {
     font-size: 0.75em;
-    font-family: 'Open Sans';
+    font-family: var(--primaryfont);
     margin-top: 0.5em;
     line-height: 2em;
     margin-bottom: 40px;
@@ -71,8 +72,13 @@ a {
   .card .tags {
     display: flex;
     /* margin-top: 40px; */
+    flex-direction: row;
+    gap: 20px;
   }
-  
+  .icoe{
+    margin-top: -4px;
+    margin-right: 2px;
+  }
   .card .tags .tag {
     font-size: 0.75em;
     background: rgba(255,255,255,0.5);
@@ -81,6 +87,8 @@ a {
     margin-right: 0.5em;
     line-height: 1.5em;
     transition: all, var(--transition-time);
+    text-align: center;
+    font-family: var(--bodyfont);
   }
   
   .card:hover .tags .tag {

@@ -12,6 +12,7 @@ import BlogPostPage from './Components/BlogPage/BlogPostPage';
 import AuthorPage from './Components/BlogPage/AuthorPage';
 import Contact from './Components/ContactPage/ContactPage';
 import AboutusPage from './Components/AboutusPage/AboutusPage';
+import SinglePage from './Components/SinglePageContent/SinglePage';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-      <Route path='/' index element={<HomePage />}/>
+      <Route path='/' index element={<SinglePage />}/>
       <Route path='/blog' element={<BlogPages/>}/>
       <Route  path='/blog/:slug' element={<BlogPostPage/>} />
       <Route path='/blog/blogauthor/:slug' element={<AuthorPage />} />

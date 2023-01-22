@@ -28,6 +28,7 @@
 }
 .blogdec{
     color: #fff;
+    font-family: var(--primaryfont);
     text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
   /* dfd */
@@ -41,7 +42,9 @@
   .BlogSingle {
     height: auto;
   }
-  
+  .Banner_Title{
+    font-family: var(--headingfont);
+  }
   
   .BannerImg {
     width: 100% !important;
@@ -59,10 +62,12 @@
   }
   .Banner_author {
     font-size: 1.05rem;
+    font-family: var(--secondaryfont);
   }
   .Banner_Content {
     font-size: 1.23rem;
     font-weight: 400;
+    font-family: var(--primaryfont);
   }
   .Banner_Read_More {
     margin: 3rem;
@@ -140,7 +145,7 @@
   /* 3d text */
   .head-3d{
     text-transform: uppercase;
-    font-family: verdana;
+    font-family: var(--primaryfont);
     font-size: 45px;
     font-weight: 700;
     color: #f5f5f5;

@@ -19,7 +19,7 @@
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: #dfc;
+    background: rgb(14, 14, 14);
     animation-timing-function: cubic-bezier(0, 1, 1, 0);
   }
   .lds-ellipsis div:nth-child(1) {
@@ -76,7 +76,7 @@
     position: absolute;
     left: 8px;
     width: 16px;
-    background: #dfc;
+    background: rgb(31, 31, 31);
     animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
   }
   .lds-facebook div:nth-child(1) {

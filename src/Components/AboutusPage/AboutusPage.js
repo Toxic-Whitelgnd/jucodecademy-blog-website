@@ -1,16 +1,23 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import img1 from "../../Assests/teamwork.png"
 import "./AboutCSS.css"
 
 export default function AboutusPage() {
+  const scrollUp = () => {
+    window.scroll(0, 0);
+    };
+
+    useEffect(() => {
+        scrollUp();
+    }, []);
   return (
     <div className='abtusbg'>
         <div className='abtusimg'>
-        <img src={img1} alt="teamwork" width={900} height={400} />
+        <img src={img1} alt="teamwork" id="mobresimgab" width={900} height={400} />
         </div>
         <div className='container mt-3 '>
-          <h3 className='d-flex justify-content-center abtusp'>Vision</h3>
+          <h1 className='d-flex justify-content-center abtush'>Vision</h1>
             <p className='p-2 abtusp'>
             Coding college clubs are student-run organizations that are typically found on college and 
             university campuses and focused on teaching and promoting computer programming and coding 
@@ -38,7 +45,7 @@ export default function AboutusPage() {
             </p>
         </div>
         <div className='container MIS'>
-          <h3 className='d-flex justify-content-center abtusp'>Mission</h3>
+          <h1 className='d-flex justify-content-center abtush'>Mission</h1>
           &nbsp;
           <div>
             <p className='abtusp'>

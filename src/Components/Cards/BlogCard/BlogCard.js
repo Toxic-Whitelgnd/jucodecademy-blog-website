@@ -2,12 +2,12 @@ import React from 'react'
 import "./BlogCard.css"
 import { format } from "date-fns";
 import {Link} from "react-router-dom"
+import {BsFillEyeFill} from "react-icons/bs";
 
-export default function BlogCard({authslug,captions,key,title,img,goTo,author,publish,body}) {
+export default function BlogCard({authslug,captions,key,title,img,goTo,author,publish,body,viewscount}) {
   return (
     <div>
       {/* card -1 */}
-      {/* TODO: need to code from here */}
       <Link to={goTo} className="linkk" >
       <a className="card" href="https://codetheweb.blog/2017/10/06/html-syntax/" style={{background:`url(${img})`}} > 
       <div className='card-desc'>
@@ -18,7 +18,11 @@ export default function BlogCard({authslug,captions,key,title,img,goTo,author,pu
             <Link to={`blogauthor/${authslug}`} className="authorcard">
           <div className="tag">By:@{author}</div>
           </Link>
+          <div className="tag"><BsFillEyeFill className='icoe' />{viewscount}k</div>
         </div>
+        
+         
+        
       </div>
     </a>
     </Link>

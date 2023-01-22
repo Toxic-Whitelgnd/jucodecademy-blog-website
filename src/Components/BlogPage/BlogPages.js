@@ -10,6 +10,14 @@ export default function BlogPages() {
     // for loading state
     const [loading,setloading] = useState(false);
 
+    const scrollUp = () => {
+      window.scroll(0, 0);
+      };
+  
+      useEffect(() => {
+          scrollUp();
+      }, []);
+
     useEffect(()=>{
         Client.fetch(
             `*[_type == "post"] {
@@ -53,6 +61,7 @@ export default function BlogPages() {
                     body={story.body}
                     captions={story.blogcaption}
                     authslug={story.authslug.current}
+                    viewscount={story.viewscount}
                   />
                 )
               

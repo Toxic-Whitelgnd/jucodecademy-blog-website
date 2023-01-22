@@ -36,19 +36,13 @@ const BlogPostPage = () => {
     const [loading,setloading] = useState(false);
 
     const { slug } = useParams();
-    const scrolltoview = () => {
-      var element = document.getElementById('dam');
-      if (element){
-        element.scrollIntoView();
-      }
-    }
+    
     const scrollUp = () => {
     window.scroll(0, 0);
     };
 
     useEffect(() => {
-        // scrollUp();
-        scrolltoview();
+        scrollUp();
     }, []);
 
     useEffect(() => {

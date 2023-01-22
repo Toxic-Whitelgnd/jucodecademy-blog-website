@@ -8,6 +8,7 @@
 }
 .abtdec{
     color: #fff;
+    font-family: var(--primaryfont);
     text-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .abtbg{
@@ -45,10 +46,16 @@
     display: flex;
     justify-content: center;
 }
-
+.abtush{
+    color: #fff;
+    font-family: var(--secondaryfont);
+    text-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
 .abtusp{
     display: flex;
     color: #fff;
+    font-size: 18px;
+    font-family: var(--primaryfont);
    text-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 .custom-btnll{
@@ -61,7 +68,7 @@
     text-decoration: none;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-#mobresimga{
+#mobresimga, #mobresimgab{
     filter: drop-shadow(0px 8px 0.9px black);
   }
 /* mobile responsive */
@@ -73,6 +80,10 @@
         width: 300px;
         height: 300px;
         margin-left: 19px;
+    }
+    #mobresimgab{
+        width: 300px;
+        height: 200px;
     }
     .abtbg{
         margin-left: 0px;
