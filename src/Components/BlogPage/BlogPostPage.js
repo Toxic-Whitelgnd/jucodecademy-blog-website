@@ -5,6 +5,7 @@ import { format } from "date-fns";
 import BlockContent from "@sanity/block-content-to-react";
 import { Client } from "../../lib/client";
 import "./BlogCSS.css";
+import BlopPostLoading from '../Cards/LoadingPageComp/BlopPostLoading';
 
 
 const urlFor = (source) =>
@@ -31,6 +32,9 @@ const serializer = {
 
 const BlogPostPage = () => {
     const [blogpost,setBlogpost] = useState([])
+
+    const [loading,setloading] = useState(false);
+
     const { slug } = useParams();
     const scrolltoview = () => {
       var element = document.getElementById('dam');
@@ -68,6 +72,7 @@ const BlogPostPage = () => {
           )
           .then((data) => {
             setBlogpost(data[0]);
+            setloading(true)
           })
           .catch(console.error);
       }, [slug]);
@@ -75,7 +80,7 @@ const BlogPostPage = () => {
     return (
         <div className="BlogSingle mb-4" >
         <div className="container" id="dam" >
-          {blogpost && (
+          {loading?blogpost && (
             <section className="p-3 Banner_Content">
               {blogpost.mainImage && (
                 <img
@@ -111,7 +116,7 @@ const BlogPostPage = () => {
                 </Link>
               </div>
             </section>
-          )}
+          ):<BlopPostLoading />}
         </div>
       </div>
     );
