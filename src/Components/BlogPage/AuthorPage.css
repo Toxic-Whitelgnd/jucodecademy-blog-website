@@ -45,3 +45,9 @@
 .pas{
     margin-bottom: 45px;
 }
+
+@media screen and (max-width: 450px) {
+    .pas .a-s a{
+        font-size: 25px;
+    }
+}

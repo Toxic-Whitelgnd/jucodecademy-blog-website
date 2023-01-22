@@ -8,11 +8,11 @@ export default function BlogHome() {
     <div className='blogbg overflow-x-hidden'>
         <div className='row align-items-center'>
             <div className='col'>
-                <img src={img2} alt="asd" width={550} height={500}/>
+                <img src={img2} alt="asd" id='mobresimgb' width={550} height={500}/>
             </div>
             <div className='col p-4'>
-                <h1 className='abt'>BLOGS!</h1>
-                <span className='blogdec'>
+                <h1 className='head-3d'>BLOGS!</h1>
+                <span className='blogdec mt-5'>
                 Welcome to our blog! We're so excited to have you here. Our goal is to provide 
                 valuable information and insights on a variety of topics that interest you.
                 From lifestyle and wellness to business and technology, we strive to bring you
@@ -26,7 +26,7 @@ export default function BlogHome() {
 
                 <div className="btnr">
                   <Link to="/blog" className='custom-btn'>
-                <a className='custom-btn' href='#'>READ OUR BLOGS</a>
+                <a className='custom-btnu' href='#'>READ OUR BLOGS</a>
                 </Link>
                 </div>
                 

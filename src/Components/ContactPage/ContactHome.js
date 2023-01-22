@@ -9,10 +9,10 @@ export default function ContactHome() {
       <div className='ctbg overflow-x-hidden'>
         <div className='row align-items-center'>
             <div className='col'>
-                <img src={img4} alt="asd" width={550} height={500} className="ctt-img"/>
+                <img src={img4} alt="asd" id='mobresimga' width={550} height={500} className="ctt-img"/>
             </div>
             <div className='col p-4'>
-                <h1 className='ctt'>CONTACT US!</h1>
+                <h1 className='head-3d'>CONTACT US!</h1>
                 <span className='blogdec'>
                 Welcome to our blog! We're so excited to have you here. Our goal is to provide 
                 valuable information and insights on a variety of topics that interest you.
@@ -27,7 +27,7 @@ export default function ContactHome() {
 
                 <div className="btnr">
                 <Link to="/Contactus" className='custom-btn'>
-                <a className='custom-btn' href='#'>CONTACT US</a>
+                <a className='custom-btnu' href='#'>CONTACT US</a>
                 </Link>
                 
                 </div>
