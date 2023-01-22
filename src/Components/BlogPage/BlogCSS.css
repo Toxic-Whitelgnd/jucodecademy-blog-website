@@ -2,8 +2,21 @@
     background-color: var(--tertiary);
 }
 .card-blog{
-  display: flex;
-  flex-wrap: wrap;
+  /* display: grid;
+    row-gap: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly; */
+    display: flex;
+    flex-wrap: wrap;
+    
+  background-color: var(--quadinary);
+}
+.blog-page{
+  padding: 5px;
+  display: block;
+  /* flex-direction: row; */
   background-color: var(--quadinary);
 }
 .custom-btn{

@@ -1,0 +1,59 @@
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.btn-f{
+    border-radius: 10px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: var(--secondary);
+    border: none;
+}
+.box {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .box select {
+    background-color: var(--primary);
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    /* -webkit-appearance: button;
+    appearance: button; */
+    outline: none;
+  }
+  
+  .box::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    width: 20px;
+    height: 52px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box select option {
+    padding: 30px;
+  }
