@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Toxic-Whitelgnd.github.io/jucodecademy-blog-website",
   "name": "jublogwebsite",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,7 @@
     "aos": "^3.0.0-beta.6",
     "date-fns": "^2.29.3",
     "framer-motion": "^8.5.2",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-date-range": "^1.4.0",
     "react-dom": "^18.2.0",
@@ -24,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
