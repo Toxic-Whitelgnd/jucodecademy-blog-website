@@ -10,16 +10,16 @@ export default function Footer() {
         <footer>
             <div className="socialico">
 
-                <a href="https://www.facebook.com/TheBestBrotherEver/"><Fiico.FiFacebook className='ml-2 mt-2' /></a>
-                <a href="https://www.instagram.com/t_a_r_u_n_s_k_/"><Fiico.FiInstagram className='ml-2 mt-2' /></a>
-                <a href="https://twitter.com/home"><Fiico.FiTwitter className='ml-2 mt-2'/></a>
-                <a href="https://github.com/Toxic-Whitelgnd"><Fiico.FiGithub className='ml-2 mt-2'/></a>
+                <a href="https://www.facebook.com/people/Codecademy-JU-Chapter/100073383202752/?sk=grid"><Fiico.FiFacebook className='ml-2 mt-2' /></a>
+                <a href="https://www.instagram.com/codecademyjuchapter/"><Fiico.FiInstagram className='ml-2 mt-2' /></a>
+                <a href="https://twitter.com/codecademyjuch"><Fiico.FiTwitter className='ml-2 mt-2'/></a>
+                <a href="https://github.com/Codecademy-JU-Chapter"><Fiico.FiGithub className='ml-2 mt-2'/></a>
                 
             </div>
             <ul className="list-inline">
                 <li className="list-inline-item"><a href="#">Home</a></li>
-                <li className="list-inline-item"><a href="mailto:tarunskt5678@gmail.com">Services</a></li>
-                <li className="list-inline-item"><a href="#/about">About</a></li>
+                <li className="list-inline-item"><a href="#">Services</a></li>
+                <li className="list-inline-item"><a href="#/Aboutus">About</a></li>
                 <li className="list-inline-item"><a href="#">Terms</a></li>
                 <li className="list-inline-item"><a href="#">Privacy Policy</a></li>
             </ul>
