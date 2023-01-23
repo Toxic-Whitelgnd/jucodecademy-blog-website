@@ -1,7 +1,9 @@
 .NavBarSection {
     font-size: 1.07rem;
   }
-  
+  .navbar-toggler{
+    color: white !important;
+  }
   .navbar
   {
     

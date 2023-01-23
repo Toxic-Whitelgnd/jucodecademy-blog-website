@@ -21,12 +21,12 @@ export default function AboutusPage() {
     }, []);
   return (
     <div className='abtusbg'>
-        <div className='abtusimg' data-aos-duration="10000" data-aos-easing="ease-out" data-aos="fade-down">
+        <div className='abtusimg'>
         <img src={img1} alt="teamwork" id="mobresimgab" width={900} height={400} />
         </div>
-        <div className='container mt-3 'data-aos-duration="10000" data-aos-easing="ease-out" data-aos="fade-up">
+        <div className='container mt-3 '>
           <h1 className='d-flex justify-content-center abtush'>Vision</h1>
-            <p className='p-2 abtusp' data-aos-duration="10000" data-aos-easing="ease-out" data-aos="fade-up" >
+            <p className='p-2 abtusp'  >
             Coding college clubs are student-run organizations that are typically found on college and 
             university campuses and focused on teaching and promoting computer programming and coding 
             skills. They provide an opportunity for students to learn and practice coding in a supportive 
@@ -34,7 +34,7 @@ export default function AboutusPage() {
              and may provide opportunities for members to work on projects and collaborate with others.
             </p>
             &nbsp;
-            <p className='p-2 abtusp' data-aos-duration="10000" data-aos-easing="ease-out" data-aos="fade-up">
+            <p className='p-2 abtusp' >
             These clubs may provide workshops, tutorials, and lectures on various programming languages 
             and technologies, as well as opportunities to participate in hackathons, coding competitions,
              and other events. They may also offer mentorship and networking opportunities for students 
@@ -43,7 +43,7 @@ export default function AboutusPage() {
              and job opportunities.
             </p>
             &nbsp;
-            <p className='p-2 abtusp' data-aos-duration="10000" data-aos-easing="ease-out" data-aos="fade-up">
+            <p className='p-2 abtusp' >
             Coding college clubs are typically run by a group of elected student officers who are
              responsible for organizing events, activities and managing the club's budget and resources. 
              They are usually sponsored and advised by a faculty or staff member, who provides guidance
@@ -53,10 +53,10 @@ export default function AboutusPage() {
             </p>
         </div>
         <div className='container MIS' >
-          <h1 className='d-flex justify-content-center abtush' data-aos-duration="10000" data-aos-easing="ease-out" data-aos="fade-up">Mission</h1>
+          <h1 className='d-flex justify-content-center abtush' >Mission</h1>
           &nbsp;
           <div>
-            <p className='abtusp' data-aos-duration="10000" data-aos-easing="ease-out" data-aos="fade-up">
+            <p className='abtusp' >
             The mission of a coding club may vary depending on the specific club, but generally, the goal is 
             to provide a space for individuals to learn and improve their programming skills through group 
             activities, projects, and mentorship. The club may also aim to promote computer science education 
@@ -66,7 +66,7 @@ export default function AboutusPage() {
         </div>
         &nbsp;
           <div className='container p-4'>
-            <p className='abtusp' data-aos-duration="10000" data-aos-easing="ease-out" data-aos="fade-up">
+            <p className='abtusp' >
                 To get to know about us more click on learn more to view our JUCodeacademy website
             </p>
             <div className="btnl text-center">
