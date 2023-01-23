@@ -1,0 +1,8 @@
+.noitms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--secondaryfont);
+    font-weight: 700;
+}

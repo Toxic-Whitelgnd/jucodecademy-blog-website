@@ -43,6 +43,12 @@ export default {
         of: [{type: 'reference', to: {type: 'category'}}],
       },
       {
+        name:'blogtype',
+        title:'Blog type',
+        type:'reference',
+        to:{type:'bloggenerals'}
+      },
+      {
         name: 'publishedAt',
         title: 'Published at',
         type: 'datetime',
