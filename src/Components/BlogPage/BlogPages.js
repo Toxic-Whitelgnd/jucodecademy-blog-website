@@ -4,7 +4,7 @@ import "./BlogCSS.css"
 import { Client } from '../../lib/client'
 import BlogLoading from '../Cards/LoadingPageComp/BlogLoading';
 import Filter from '../Cards/FilterBtn/Filter';
-
+import {motion,AnimatePresence} from "framer-motion";
 import Noitems from '../Cards/BaseComp/Noitems';
 
 export default function BlogPages() {
@@ -111,7 +111,8 @@ export default function BlogPages() {
       return (
         
         <div>
-          <div className="card-blog"> 
+          <motion.div layout className="card-blog"> 
+          <AnimatePresence>
           {
             len>0?
             filteredName[0] && 
@@ -131,7 +132,8 @@ export default function BlogPages() {
                 />
               )):<Noitems/>
           }
-          </div>
+          </AnimatePresence>
+          </motion.div>
         </div>
        
       )

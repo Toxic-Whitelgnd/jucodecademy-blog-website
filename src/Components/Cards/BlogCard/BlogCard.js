@@ -3,11 +3,15 @@ import "./BlogCard.css"
 import { format } from "date-fns";
 import {Link} from "react-router-dom"
 import {BsFillEyeFill} from "react-icons/bs";
+import {motion,AnimatePresence} from "framer-motion";
 
 export default function BlogCard({authslug,captions,key,title,img,goTo,author,publish,body,viewscount}) {
   return (
-    <div>
-      {/* card -1 */}
+    <motion.div layout 
+      animate={{opacity:1,scale:1}}
+      initial={{opacity:0,scale:0}}
+      exit={{opacity:0,scale:0}}>
+
       <Link to={goTo} className="linkk" >
       <a className="card" href="https://codetheweb.blog/2017/10/06/html-syntax/" style={{background:`url(${img})`}} > 
       <div className='card-desc'>
@@ -26,7 +30,7 @@ export default function BlogCard({authslug,captions,key,title,img,goTo,author,pu
       </div>
     </a>
     </Link>
-    </div>
+    </motion.div>
   )
 }
 // style={{'backgroundImage':'url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)'}}

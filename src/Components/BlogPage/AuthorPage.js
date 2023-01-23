@@ -6,10 +6,13 @@ import BlockContent from "@sanity/block-content-to-react";
 import  * as Fiico from "react-icons/fi" 
 import * as Bsico from "react-icons/bs"
 import {AiOutlineMail} from "react-icons/ai"
+import BlogLoading from '../Cards/LoadingPageComp/BlogLoading';
 
 export default function AuthorPage() {
     const [authprof,setauthprof] = useState([])
     const {slug} = useParams()
+
+    const [loading,setloading] = useState(false)
 
     const scrollUp = () => {
       window.scroll(0, 0);
@@ -36,12 +39,13 @@ export default function AuthorPage() {
             }
         }`).then((data)=>{
             setauthprof(data);
+            setloading(true)
             console.log(data)
         }).catch(console.error)
     },[]);
   return (
     <div>
-      {
+      { loading ?
         authprof && authprof.map((auth,idx)=>(
             <div>
               <div className="auth-img">
@@ -71,7 +75,7 @@ export default function AuthorPage() {
                 </div>
                 </div>
             </div>
-        ))
+        )) : <BlogLoading />
       }
     </div>
   )
