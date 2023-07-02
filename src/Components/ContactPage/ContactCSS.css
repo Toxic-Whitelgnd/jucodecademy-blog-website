@@ -50,7 +50,7 @@
     font-weight: 500;
 }
 
-.form{
+.form1{
     grid-area: form;
 }
 .infoc{
@@ -60,7 +60,7 @@
     grid-area: map;
 }
 .contactc {
-    padding-left: 40px;
+    padding: 40px;
     padding-top: 8px;
     background: #fff;
     box-shadow: 0 5px 35px rgba(0,0,0,0.15);
@@ -242,9 +242,7 @@
     .infoc .infobox div a:hover{
         font-size: 0.9em;
     }
-    .contactc h3{
-        margin-top: 20px;
-    }
+    
 }
 
 /* sd */

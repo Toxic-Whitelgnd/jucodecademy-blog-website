@@ -91,7 +91,7 @@ export default function Contact() {
             <h2 className='flex justify-center text-center'><ContactSVG /></h2>
             </div> */}
             <div className='boxc'>
-                <div className='contactc form'>
+                <div className='contactc form1'>
                     
                     <form ref={form} onSubmit={sendEmail}>
                     <h3 className='capitalize'>Send message</h3>
