@@ -92,8 +92,9 @@ export default function Contact() {
             </div> */}
             <div className='boxc'>
                 <div className='contactc form'>
-                    <h3 className='capitalize'>Send message</h3>
+                    
                     <form ref={form} onSubmit={sendEmail}>
+                    <h3 className='capitalize'>Send message</h3>
                         <div className='formbox'>
                             <div className='row50'>
                                 <div className='inputbox'>
@@ -145,7 +146,7 @@ export default function Contact() {
 
                         <div>
                             <span><MdAlternateEmail /></span>
-                            <a id="dd" href='mailto:akatsukiorganisation999@gmail.com' className='sm:text-xs'>neuron.club.ai@gmail.com</a>
+                            <a id="dd" href='mailto:akatsukiorganisation999@gmail.com' className='sm:text-xs'>jucodecademy@gmail.com</a>
                         </div>
 
                         <div>

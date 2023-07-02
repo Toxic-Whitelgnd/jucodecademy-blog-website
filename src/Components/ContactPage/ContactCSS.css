@@ -60,7 +60,8 @@
     grid-area: map;
 }
 .contactc {
-    padding: 40px;
+    padding-left: 40px;
+    padding-top: 8px;
     background: #fff;
     box-shadow: 0 5px 35px rgba(0,0,0,0.15);
 }
@@ -78,7 +79,7 @@
     color: #0e3959;
     font-weight: 500;
     font-size: 1.4em;
-    margin-bottom: 10px;
+    margin-bottom: 10px;  
 }
 
 /* formbox */
@@ -240,6 +241,9 @@
     }
     .infoc .infobox div a:hover{
         font-size: 0.9em;
+    }
+    .contactc h3{
+        margin-top: 20px;
     }
 }
 
