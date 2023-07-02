@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jucodecademy-blog-website/static/css/main.20f4a4b5.css",
-    "main.js": "/jucodecademy-blog-website/static/js/main.18b10883.js",
+    "main.css": "/jucodecademy-blog-website/static/css/main.27d40a71.css",
+    "main.js": "/jucodecademy-blog-website/static/js/main.87d2187f.js",
     "static/js/787.ed1b411c.chunk.js": "/jucodecademy-blog-website/static/js/787.ed1b411c.chunk.js",
     "static/media/abtus.png": "/jucodecademy-blog-website/static/media/abtus.48ceb6a1592e7a8f3c41.png",
     "static/media/homeimage.jpg": "/jucodecademy-blog-website/static/media/homeimage.1c4f707a2a8fd46e086d.jpg",
@@ -10,12 +10,12 @@
     "static/media/teamwork.png": "/jucodecademy-blog-website/static/media/teamwork.fa636bc1911a1cb61f36.png",
     "static/media/logo.svg": "/jucodecademy-blog-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/jucodecademy-blog-website/index.html",
-    "main.20f4a4b5.css.map": "/jucodecademy-blog-website/static/css/main.20f4a4b5.css.map",
-    "main.18b10883.js.map": "/jucodecademy-blog-website/static/js/main.18b10883.js.map",
+    "main.27d40a71.css.map": "/jucodecademy-blog-website/static/css/main.27d40a71.css.map",
+    "main.87d2187f.js.map": "/jucodecademy-blog-website/static/js/main.87d2187f.js.map",
     "787.ed1b411c.chunk.js.map": "/jucodecademy-blog-website/static/js/787.ed1b411c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20f4a4b5.css",
-    "static/js/main.18b10883.js"
+    "static/css/main.27d40a71.css",
+    "static/js/main.87d2187f.js"
   ]
 }
